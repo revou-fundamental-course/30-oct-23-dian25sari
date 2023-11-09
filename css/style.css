@@ -1,0 +1,79 @@
+body {
+    font-family       : Tahoma, Trebuchet MS;
+	font-size         : 12px;
+	color             : black;
+}
+
+input, text{
+	margin           : 1px;
+	border		 	 : solid 1px;
+	font-size        : 12px;
+	color            : black;
+	background-color : white;
+}
+
+a, A:link, a:visited, a:active {
+    color           :blue;
+    text-decoration : none;
+    font-weight     : bold;	
+}
+
+a:hover {
+    color           : red;
+    text-decoration : none;
+}
+
+#header {
+    display         : flex;
+    flex-direction  : column;
+    text-align: center;
+    padding:5px;
+    justify-content: space-between;
+}
+
+.input-section {
+    display: flex; 
+    padding:5px;
+    margin-top:16px;
+    flex-direction: column;
+    background-color: lightblue;   
+}
+
+.result-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding:5px;
+    justify-content: space-between;
+}
+
+.title-field {
+    width: 100px;
+    height: 20px;
+    display: inline-block;
+}
+
+button {
+  width : 85px;
+  margin-right: 4px;
+  font-size  : 12px;
+  cursor: pointer;
+}
+
+#nameError {
+    display: none;
+    font-weight: bold;
+    color : red;
+    padding : 4px;
+  }
+  
+  #nameError.visible {
+    display: block;
+  }
+  
+  input.invalid {
+    border-color: red;
+  }
+  
+  
