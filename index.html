@@ -2,10 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=git, initial-scale=1.0">
+    <title>Kalkulator BMI</title>
+    <link rel="stylesheet" href="css/style.css"
 </head>
 <body>
-    
+<header id="header">
+    <h3 id="logo">Kalkulator BMI</h3>
+    <nav id="navigasi">
+        <a href="">Download App</a>
+        <a href="">Contact Us</a>
+    </nav>
+</header>
+<main>
+    <form class="form">
+        <label for="berat">Berat Badan</label>
+        <input type="number" id="berat" name="berat" placeholder="kg">
+        <label for="tinggi">Tinggi Badan</label>
+        <input type="number" id="tinggi" name="tinggi" placeholder="m">
+        <label for="usia">Umur</label>
+        <input type="number" id="usia" name="usia" placeholder="tahun">
+        <label for="jeniskelamin">Jenis Kelamin</label>
+        <data id="gender">
+            <input type="radio" name="jeniskelamin" id="pria" class="pria"><label for="pria">Pria</label>
+            <input type="radio" name="jeniskelamin" id="wanita" class="wanita"><label for="wanita">Wanita</label>
+        </data>
+        <span class="hasil">
+            <center><h1>Hasil</h1></center>
+            <center><p>BMI kamu adalah</p></center>
+            <center><data id="hasil">00.00</data></center>
+            <center><p class="" id="kategori">None</p></center>
+        </span>
+    </form>
+</main>    
+<footer>Dibuat oleh Dian</footer>    
+<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
